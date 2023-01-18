@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Details from './Details';
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import './app.css'
 function App() {
   const [users,setUsers]=useState([])
   const DataUsers = async()=>{

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const UserList = ({users}) => {
 
   return (
-    <div style={{display:'flex', flexWrap:'wrap',gap:'15px'}}>
+    <div style={{marginLeft:'200px',display:'flex', flexWrap:'wrap',gap:'15px'}}>
       {users.map((el)=>(<Card key={el.id} style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title>{el.name}</Card.Title>
